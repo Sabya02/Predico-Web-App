@@ -6,4 +6,4 @@ scikit-learn==1.0.1
 protobuf==3.20.1
 openai==0.26.5
 streamlit_chat==0.0.1
-dotenv==0.21.1
+dotenv==0.0.5
