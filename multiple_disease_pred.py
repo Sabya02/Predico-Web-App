@@ -20,10 +20,10 @@ import sqlite3
 #import streamlit as st1
 
 
-import streamlit.components as stc
+import streamlit.components as stc 
 import base64 
 
-import openai 
+import openai
 import aiohttp
 import streamlit_chat
 from streamlit_chat import message
