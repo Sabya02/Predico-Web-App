@@ -351,7 +351,7 @@ if (selected == 'General Disease Prediction'):
     
     symptoms = st.multiselect('Enter your symptoms so that we can get you a primary diagnosis:',[*symptoms_list],key='symptoms')
     
-    # creating dataframe for accepting testing values
+    # 
     prediction_value = [0 for i in range(132)]
     for sym in symptoms:
         index = symptoms_list.index(sym)
