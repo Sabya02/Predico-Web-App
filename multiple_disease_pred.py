@@ -37,7 +37,7 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users\\sabyasachi\\Desktop\\Multiple_Disease_Prediction\\saved_model\\diabetes_model (1).sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\diabetes_model (1).sav', 'rb'))
 
 heart_disease_model = pickle.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\heart_disease_model (1).sav','rb'))
 
