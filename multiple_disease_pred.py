@@ -390,7 +390,7 @@ if (selected == 'Predo-Bot'):
 
     st.header(" _Predo_ is here for your Service ")
     
-    openai.api_key = os.getenv("OPENAI_SECRET")
+    openai.api_key = st.secrets["OPENAI_SECRET"]
 #function to generate call from api
 
     def generate_response(prompt):
