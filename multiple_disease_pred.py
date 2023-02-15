@@ -49,7 +49,7 @@ model = joblib.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "sa
 #model = joblib.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\random_f.joblib', 'rb'))
 
 #Welcome text
-st.title("Welcome to [__Predico__] - The Smart Health Predictor")
+st.title("Welcome to __Predico__ - The Smart Health Predictor")
 # sidebar for navigation
 with st.sidebar:
     
@@ -388,7 +388,7 @@ if (selected == 'General Disease Prediction'):
 # Predo-Bot
 if (selected == 'Predo-Bot'):
 
-    st.header("[_Predo_] is here for your Service ")
+    st.header("_Predo_ is here for your Service ")
     
     openai.api_key = os.getenv("OPENAI_SECRET")
 #function to generate call from api
