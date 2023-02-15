@@ -38,13 +38,14 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 # loading the saved models
 
 
-diabetes_model = pickle.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\diabetes_model (1).sav', 'rb'))
+diabetes_model = pickle.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "saved_model/diabetes_model (1).sav"), 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\heart_disease_model (1).sav','rb'))
+heart_disease_model = pickle.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "saved_model/heart_disease_model (1).sav"),'rb'))
+                                  
 
-parkinsons_model = pickle.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\parkinsons_model (1).sav', 'rb'))
-
-model = joblib.load("C:/Users/sabyasachi/Desktop/Multiple_Disease_Prediction/saved_model/random_f.joblib")
+parkinsons_model = pickle.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "saved_model/parkinsons_model (1).sav"),'rb'))
+                              
+model = joblib.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "saved_model/random_f.joblib"))
 #model = joblib.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\random_f.joblib', 'rb'))
 
 #Welcome text
