@@ -293,7 +293,9 @@ if (selected == 'Covid-19 Prediction'):
     st.title('Covid-19 Prediction')
     
     #loading the Covid-19 dataset
-    df1=pd.read_csv("C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\covid.csv")
+    #df1=pd.read_csv("C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\covid.csv")
+    
+    df1=pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "covid.csv"))
     #cleaning the data by dropping unneccessary column and dividing the data as features(x1) & target(y1)
     x1=df1.drop("Infected with Covid19",axis=1)
     x1=np.array(x1)
