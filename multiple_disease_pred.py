@@ -49,7 +49,7 @@ model = joblib.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "sa
 #model = joblib.load(open('C:/Users\sabyasachi\Desktop\Multiple_Disease_Prediction\saved_model\random_f.joblib', 'rb'))
 
 #Welcome text
-st.title("Welcome to __Predico__ - The Smart Health Predictor")
+st.title("Welcome to :blue[__Predico__] - The Smart Health Predictor")
 # sidebar for navigation
 with st.sidebar:
     
